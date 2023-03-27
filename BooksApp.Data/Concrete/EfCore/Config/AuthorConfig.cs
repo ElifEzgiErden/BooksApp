@@ -21,12 +21,12 @@ namespace BooksApp.Data.Concrete.EfCore.Config
             builder.Property(x => x.Gender).IsRequired();
 
             builder.HasData(
-                new Author { Id = 1, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Orhan Parasaçan", Gender = "E", Url="orhan-parasacan" },
-                new Author { Id = 2, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Selami Gülgeçen", Gender = "E", Url="selami-gulgecen" },
-                new Author { Id = 3, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Seyhan Yolagelen", Gender = "E", Url="seyhan-yolagelen" },
-                new Author { Id = 4, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Hale Çokseven",  Gender = "E",Url="hale-cokseven" },
+                new Author { Id = 1, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Merve Gülcemaln", Gender = "k", Url= "merve-gulcemal" },
+                new Author { Id = 2, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Gamze Çelik", Gender = "k", Url= "gamze-celik" },
+                new Author { Id = 3, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Hakan Türkçapar", Gender = "E", Url= "hakan-turkcapar" },
+                new Author { Id = 4, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Hale Çokseven",  Gender = "K",Url="hale-cokseven" },
                 new Author { Id = 5, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Kemal Devabulan", Gender = "E",Url="kemal-devabulan" },
-                new Author { Id = 6, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Selen Günebakan", Gender = "E",Url="selen-gunebakan" }
+                new Author { Id = 6, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Mary Wollstonecraft", Gender = "K",Url= "mary-wollstonecraft" }
             );
         }
     }
